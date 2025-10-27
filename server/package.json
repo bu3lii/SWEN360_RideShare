@@ -1,0 +1,10 @@
+{
+  "name": "rideshare-server",
+  "version": "0.0.1",
+  "description": "Server placeholder for SWEN360 RideShare",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
