@@ -1,0 +1,5 @@
+○	Privacy (location/data handling) - Pushed by Hussain
+The system designed above is meant to take sensitive user data such as GPS location, student identification, ride history, and chat messages between users. So it is without a doubt that privacy is a major concern that must be accounted for.
+To guarantee data privacy at its most effective, the system will follow data minimization, meaning data will only be taken when absolutely necessary. For instance, GPS is only active during rides. After completion, the location data is purged.
+Personal contact information remains strictly on the app’s database and is never shared between users. Even among system components, the exchange of data is minimized.
+The Notification service for instance will be designed to only take user tokens rather than full profiles, reducing vulnerability in case of an attack.
