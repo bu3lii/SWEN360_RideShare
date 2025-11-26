@@ -1,0 +1,59 @@
+T1 – Assigning new Scrum Master and dividing tasks among the team
+• Task Group: Planning
+• Story Points: 1
+• Start–Due Date: 10/11/2025 – 10/11/2025
+
+T2 – Architecture Analysis: Comparison between 2 architectural styles through evaluation criteria (scalability, security, maintainability, team fit)
+• Task Group: Architecture
+• Story Points: 3
+• Start–Due Date: 11/11/2025 – 12/11/2025
+
+T3 – Build Architecture Decision Matrix
+• Task Group: Architecture
+• Story Points: 2
+• Start–Due Date: 12/11/2025 – 13/11/2025
+
+T4 – Select Final Architecture with Justification
+• Task Group: Architecture
+• Story Points: 2
+• Start–Due Date: 13/11/2025 – 14/11/2025
+
+T5 – Mapping 1–2 design patterns to features
+• Task Group: Architecture
+• Story Points: 3
+• Start–Due Date: 13/11/2025 – 16/11/2025
+
+T6 – Design Component Diagram showing system modules
+• Task Group: Detailed Design
+• Story Points: 4
+• Start–Due Date: 14/11/2025 – 17/11/2025
+
+T7 – Design Sequence Diagram to show the app’s functionality
+• Task Group: Detailed Design
+• Story Points: 3
+• Start–Due Date: 16/11/2025 – 19/11/2025
+
+T8 – Expanding, refining, and creating complete UML Class Diagram encompassing all methods, attributes, and relationships
+• Task Group: Detailed Design
+• Story Points: 4
+• Start–Due Date: 16/11/2025 – 20/11/2025
+
+T9 – Refining Wireframes and ensuring alignment with Architecture
+• Task Group: Detailed Design
+• Story Points: 2
+• Start–Due Date: 17/11/2025 – 19/11/2025
+
+T10 – Prepare the Ethical Design Statement (Privacy, Fairness, Safety, and an ethical trade-off: convenience vs privacy) integrating ethics into wireframes and UML diagrams
+• Task Group: Ethical Considerations
+• Story Points: 2
+• Start–Due Date: 18/11/2025 – 23/11/2025
+
+T11 – GitHub Commit Submission for Deliverables throughout the sprint
+• Task Group: GitHub
+• Story Points: 1
+• Start–Due Date: 11/11/2025 – 24/11/2025
+
+T12 – Create Sprint 2 Burndown Chart to show task completion and velocity trend of the team
+• Task Group: Velocity
+• Story Points: 2
+• Start–Due Date: 24/11/2025 – 25/11/2025
