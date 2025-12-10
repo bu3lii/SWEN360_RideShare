@@ -18,7 +18,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const compression = require('compression');
 const mongoSanitize = require('express-mongo-sanitize');
-// const rateLimit = require('express-rate-limit');
+const rateLimit = require('express-rate-limit');
 const hpp = require('hpp');
 const http = require('http');
 
@@ -60,18 +60,18 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
-// Rate Limiting - COMMENTED OUT FOR DEMO
-// const limiter = rateLimit({
-//   windowMs: config.rateLimitWindowMs,
-//   max: config.rateLimitMaxRequests,
-//   message: {
-//     success: false,
-//     message: 'Too many requests, please try again later.'
-//   },
-//   standardHeaders: true,
-//   legacyHeaders: false
-// });
-// app.use('/api', limiter);
+// Rate Limiting
+const limiter = rateLimit({
+  windowMs: config.rateLimitWindowMs,
+  max: config.rateLimitMaxRequests,
+  message: {
+    success: false,
+    message: 'Too many requests, please try again later.'
+  },
+  standardHeaders: true,
+  legacyHeaders: false
+});
+app.use('/api', limiter);
 
 // Body Parser
 app.use(express.json({ limit: '10kb' }));
