@@ -69,8 +69,7 @@ full/
     │   ├── services/         # API services
     │   ├── widgets/          # Reusable widgets
     │   └── main.dart         # App entry point
-    ├── pubspec.yaml
-    └── .env                  # Environment variables (if needed)
+    └── pubspec.yaml
 ```
 
 ## Prerequisites
