@@ -285,6 +285,7 @@ The backend should now be running at `http://localhost:3000`
    ```bash
    cd frontend
    flutter pub get    # If not already done
+   flutter create . # for running on android VM
    flutter run
    ```
 
