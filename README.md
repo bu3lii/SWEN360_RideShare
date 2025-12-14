@@ -47,7 +47,7 @@ RideShare is a full-stack carpooling application that enables university student
 ##  Project Structure
 
 ```
-full/
+SWEN360_RideShare/
 ├── backend/          # Node.js/Express API
 │   ├── src/
 │   │   ├── app.js            # Application entry point
